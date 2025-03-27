@@ -10,55 +10,42 @@
     <TextView
         android:id="@+id/textView3"
         android:layout_width="195dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="16dp"
+        android:layout_height="69dp"
         android:text="Munch Mate "
         android:textSize="30dp"
         android:textStyle="italic"
-        app:layout_constraintBottom_toTopOf="@+id/timeOfDay"
-        app:layout_constraintStart_toStartOf="@+id/timeOfDay"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteX="96dp"
+        tools:layout_editor_absoluteY="16dp" />
 
     <EditText
         android:id="@+id/timeOfDay"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginEnd="68dp"
+        android:layout_width="275dp"
+        android:layout_height="69dp"
         android:ems="10"
         android:inputType="text"
         android:text="Enter Time Of The Day"
-        app:layout_constraintBottom_toTopOf="@+id/displayOpt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        tools:layout_editor_absoluteY="136dp" />
 
     <TextView
         android:id="@+id/displayOpt"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginEnd="68dp"
-        android:layout_marginBottom="46dp"
+        android:layout_width="296dp"
+        android:layout_height="95dp"
         android:text=""
-        app:layout_constraintBottom_toTopOf="@+id/btnMunchTime"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/timeOfDay" />
+        tools:layout_editor_absoluteY="238dp" />
 
     <Button
         android:id="@+id/btnMunchTime"
-        android:layout_width="109dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="111dp"
+        android:layout_width="103dp"
+        android:layout_height="60dp"
         android:text="Munch Time "
-        app:layout_constraintBottom_toTopOf="@+id/btnReset"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/displayOpt" />
+        tools:layout_editor_absoluteY="390dp" />
 
     <Button
         android:id="@+id/btnExit"
@@ -66,8 +53,9 @@
         android:layout_height="0dp"
         android:text="Exit "
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="578dp" />
+        tools:layout_editor_absoluteY="570dp" />
 
     <Button
         android:id="@+id/btnReset"
@@ -75,7 +63,7 @@
         android:layout_height="wrap_content"
         android:text="Reset"
         tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="450dp" />
+        tools:layout_editor_absoluteY="489dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
