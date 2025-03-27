@@ -36,6 +36,15 @@ class MainActivity : AppCompatActivity() {
             finish()
         }
 
+        // Reset button
+        btnReset.setOnClickListener {
+            // it  clear the timeOfDay text
+            timeOfDay.text = ""
+            //Clear the displayOpt text
+            displayOpt.text = "" // Clear the displayOpt text
+        }
+
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
