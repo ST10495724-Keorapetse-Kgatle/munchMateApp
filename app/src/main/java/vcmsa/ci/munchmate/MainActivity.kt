@@ -22,6 +22,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_main)
+
+        // Initialize
+        timeOfDay = findViewById(R.id.timeOfDay)
+        displayOpt = findViewById(R.id.displayOpt)
+        btnMunchTime = findViewById(R.id.btnMunchTime)
+        btnExit = findViewById(R.id.btnExit)
+        btnReset = findViewById(R.id.btnReset)
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
