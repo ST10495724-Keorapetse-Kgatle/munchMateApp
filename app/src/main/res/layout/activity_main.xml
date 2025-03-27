@@ -47,32 +47,29 @@
 
     <Button
         android:id="@+id/btnMunchTime"
-        android:layout_width="103dp"
-        android:layout_height="0dp"
+        android:layout_width="125dp"
+        android:layout_height="49dp"
         android:layout_marginBottom="39dp"
         android:text="Munch Time "
         app:layout_constraintBottom_toTopOf="@+id/btnReset"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/displayOpt" />
 
     <Button
         android:id="@+id/btnExit"
-        android:layout_width="90dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="113dp"
+        android:layout_width="110dp"
+        android:layout_height="50dp"
         android:text="Exit "
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.47"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnReset" />
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="586dp" />
 
     <Button
         android:id="@+id/btnReset"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="113dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="4dp"
         android:layout_marginBottom="33dp"
         android:text="Reset"
         app:layout_constraintBottom_toTopOf="@+id/btnExit"
