@@ -13,11 +13,11 @@
         android:layout_height="0dp"
         android:layout_marginStart="96dp"
         android:layout_marginTop="16dp"
-        android:layout_marginBottom="51dp"
+        android:layout_marginBottom="488dp"
         android:text="Munch Mate "
         android:textSize="30dp"
         android:textStyle="italic"
-        app:layout_constraintBottom_toTopOf="@+id/timeOfDay"
+        app:layout_constraintBottom_toTopOf="@+id/btnExit"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -47,8 +47,8 @@
 
     <Button
         android:id="@+id/btnMunchTime"
-        android:layout_width="125dp"
-        android:layout_height="49dp"
+        android:layout_width="110dp"
+        android:layout_height="62dp"
         android:layout_marginBottom="39dp"
         android:text="Munch Time "
         app:layout_constraintBottom_toTopOf="@+id/btnReset"
@@ -60,10 +60,13 @@
     <Button
         android:id="@+id/btnExit"
         android:layout_width="110dp"
-        android:layout_height="50dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="95dp"
         android:text="Exit "
-        tools:layout_editor_absoluteX="142dp"
-        tools:layout_editor_absoluteY="586dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <Button
         android:id="@+id/btnReset"
