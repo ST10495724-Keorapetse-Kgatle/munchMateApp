@@ -54,7 +54,7 @@ class MainActivity : AppCompatActivity() {
                 " dinner" -> "Spaghetti Bolognese"
                 //when the user enters after dinner snack
                 "after dinner snack "-> "warm milk,crackers and cheese"
-                //when the user enters dinner
+                //when the user enters desert
                 "desert" -> "tiramisu"
                 // if the user enters anything else
                 else -> "Invalid Time Of day Please Enter Valid Time In Words!"
