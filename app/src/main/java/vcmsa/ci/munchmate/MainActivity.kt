@@ -49,11 +49,11 @@ class MainActivity : AppCompatActivity() {
                 //when the user enters afternoon
                 "afternoon" -> "Chicken Caesar Wrap"
                 //when the user enters afternoon snack
-                "afternoon snack "-> "chips and dip"
+                "afternoon snack"-> "chips and dip"
                 //when the user enters dinner
-                " dinner" -> "Spaghetti Bolognese"
+                "dinner" ->"Spaghetti Bolognese"
                 //when the user enters after dinner snack
-                "after dinner snack "-> "warm milk,crackers and cheese"
+                "after dinner snack"-> "warm milk,crackers and cheese"
                 //when the user enters desert
                 "desert" -> "tiramisu"
                 // if the user enters anything else
